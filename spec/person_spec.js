@@ -1,6 +1,6 @@
-let person = require('../src/person')
+let {Person} = require('../src/person')
 
-let personTest = new person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives']) 
+let personTest = new Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives']) 
 
 describe("personTest", ()=>{
     it("should return the with Ryan", ()=>{
